@@ -451,5 +451,5 @@ You can monitor the Glue job status in the AWS Glue console under Jobs -> Runs.
     ├── landing-bucket.png
     ├── glue-job-success.png
     ├── processed-bucket.png
-    └── analytics-output.png
+    └── query-results.png
 ```
