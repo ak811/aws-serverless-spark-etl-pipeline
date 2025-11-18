@@ -443,7 +443,7 @@ Example embedding (adjust filenames to match yours):
 ![Landing bucket upload](screenshots/landing-bucket.png)
 ![Glue job success](screenshots/glue-job-success.png)
 ![Processed bucket structure](screenshots/processed-bucket.png)
-![Analytics sample output](screenshots/analytics-output.png)
+![Analytics sample output](screenshots/query-results.png)
 ```
 
 ---
