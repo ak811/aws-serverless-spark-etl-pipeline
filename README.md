@@ -418,8 +418,6 @@ You can monitor the Glue job status in the AWS Glue console under Jobs -> Runs.
 
 ## Screenshots (Results and Verification)
 
-Include the following screenshots in this repository and reference them here:
-
 1. S3 Landing Bucket Upload  
    - Screenshot of `product-reviews-landing-bucket` showing `reviews.csv`.
 
@@ -434,39 +432,14 @@ Include the following screenshots in this repository and reference them here:
      - `top_5_customers/`
      - `rating_distribution/`
 
-4. Sample Analytics File Preview  
-   - Screenshot of one of the output files opened (for example rating distribution or daily review counts).
-
-Example embedding (adjust filenames to match yours):
-
-```markdown
 ![Landing bucket upload](screenshots/landing-bucket.png)
 ![Glue job success](screenshots/glue-job-success.png)
 ![Processed bucket structure](screenshots/processed-bucket.png)
 ![Analytics sample output](screenshots/query-results.png)
-```
-
----
-
-## Cleanup
-
-To avoid unnecessary charges:
-
-1. Empty and delete:
-   - `product-reviews-landing-bucket`
-   - `product-reviews-processed-bucket`
-2. Delete the Lambda function:
-   - `start_glue_job_trigger`
-3. Delete the Glue job:
-   - `process_reviews_job`
-4. Delete the IAM role:
-   - `AWSGlueServiceRole-Reviews` (after detaching policies and ensuring nothing else uses it)
 
 ---
 
 ## Repository Structure
-
-Example structure for the final GitHub repo:
 
 ```text
 .
