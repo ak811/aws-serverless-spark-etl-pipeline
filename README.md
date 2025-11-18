@@ -443,8 +443,8 @@ You can monitor the Glue job status in the AWS Glue console under Jobs -> Runs.
 
 ```text
 .
-├── Glue ETL Script.py
-├── lambda function.py
+├── glue_etl_script.py
+├── lambda_function.py
 ├── reviews.csv
 ├── README.md
 └── screenshots/
